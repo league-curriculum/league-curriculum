@@ -1,17 +1,16 @@
 ---
 home: true
 heroImage:  /assets/word-logo.png
-tagline: Introduction to Python
-actionText: Get Started!
+tagline: League Curriculum Links and Documentation
+actionText: Documentation
 actionLink: /intro
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
 footer: Made by The LEAGUE with ❤️
 ---
 
-This is the index page for the lesson website. 
+
+<!--- Note that in the lst below, every list line ( starts with '*' ) must 
+      have two spaces at the end to get the line break -->
+* [A Visual Introduction to Python](https://league-curriculum.github.io/Visual-Python/)  
+Introducing Python with the Turtle and Trinket.io
+* [Hour of Microbit]()  
+A short class introducing the Microbit Microcontroller
