@@ -113,8 +113,13 @@ jtl serve
 
 If you get errors, it maybe because you need to install packages with yarn. Try: `(cd docs &&  yarn install )`
 
-If it works, visit  http://localhost:8080/LevelX/ to see you site. 
+If it works, visit  [http://localhost:8080/LevelX/](http://localhost:8080/LevelX/) to see your site. 
 
+
+::: tip
+The `LevelX` part is the directory of the website, defined in the `base` variable in `config.yml`. It should be set to the repository name for most  websites served from Github, but should be empty for the root
+website of an organization, or if your site is using a CNAME
+:::
 
 
 

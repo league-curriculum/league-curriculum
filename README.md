@@ -1,7 +1,4 @@
-# LevelX
+# League Curriculum
 
-Template for vuepress-based lesson websites. 
-
-NOTE! This is a template site, so use the template, don't clone it. 
-
+A static website with links to leag curriculum and documentaation for how to manage it. 
 

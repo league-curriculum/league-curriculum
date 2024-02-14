@@ -1,4 +1,5 @@
 title: League Curriculum
+base: /league-curriculum/
 description: League Curriculum Links and Documentation
 head:
 - - meta
@@ -17,7 +18,7 @@ themeConfig:
   displayAllHeaders: true
   repo: 'jointheleague-it/league-curriculum'
   docRepo: 'jointheleague-it/league-curriculum'
-  docsDir: 'docs'
+  docsDir: 'docs/src'
   editLinkText: ''
   editLinks: true
   lastUpdated: false
