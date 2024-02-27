@@ -41,3 +41,9 @@ themeConfig:
         title: How it Works
       - path: /lb/sources.md
         title: Finding Lessons  
+  - title: Java
+    path: /java/
+    collapsable: false
+    children:
+      - title: Java Dev Container Quickstart
+        path: /java/devcontainer.md
