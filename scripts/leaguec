@@ -1,0 +1,76 @@
+#! /usr/bin/env python
+
+import click
+
+import logging
+import os
+import shutil
+from pathlib import Path
+from lesson_builder.util import find_file_path
+import yaml
+from textwrap import dedent
+import click
+from plumbum import local, FG
+from plumbum.cmd import yarn, git
+from plumbum.commands.processes import ProcessExecutionError
+from slugify import slugify
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+
+logger = logging.getLogger(__name__)
+show_exceptions = False
+
+repo_root = Path(__file__).parent.parent
+
+
+
+@click.group()
+@click.option('-v', '--verbose', is_flag=True, show_default=True, default=False, help="INFO logging")
+@click.option('-vv', '--debug', is_flag=True, show_default=True, default=False, help="DEBUG logging")
+@click.option('-E', '--exceptions', is_flag=True, show_default=True, default=False,
+              help="Display exception stack traces")
+def main(verbose: bool, debug: bool, exceptions: bool):
+    if debug:
+        logging.basicConfig()
+        logger.setLevel(logging.DEBUG)
+    elif verbose:
+        logging.basicConfig()
+        logger.setLevel(logging.INFO)
+    global show_exceptions
+    show_exceptions = exceptions
+
+
+def main_entry():
+    try:
+        main()
+    except Exception as e:
+        if show_exceptions:
+            raise
+        else:
+            click.echo(f"Error: {e}")
+
+
+@main.command(help="Create the Markdown for the Java levels")
+@click.argument('meta_file')
+def jlevels(meta_file):
+    meta_file = Path(meta_file)
+    meta = yaml.safe_load(meta_file.read_text())
+
+
+    o = '# Java Levels and Modules\n\n'
+
+    for lk, lv in sorted(meta.items()):
+        o += f"* [{lk}](https://league-java.github.io/{lk}/)\n"
+        for mk, mv in sorted(lv.items()):
+            url = f"https://github.com/League-Java/{lk}-{mk}"
+            o += f"  * [{mk}]({url})\n"
+
+    lm_file = repo_root / 'docs' / 'src' / 'java' / 'java_levels.md'
+
+    lm_file.write_text(o)
+
+    print("Wrote", lm_file)
+
+
+if __name__ == '__main__':
+    main_entry()

@@ -24,15 +24,12 @@ themeConfig:
   lastUpdated: false
   logo: /assets/Flag.png
   nav:
-  - link: /about/
-    text: About
+  - link: /docs/
+    text: Docs
   - link: https://jointheleague.org
     text: The LEAGUE
   sidebar:
-  - path: /intro
-    title: Introduction
   - title: The Lesson Builder
-    path: /lb/
     collapsable: false
     children:
       - path: /lb/quickstart.md
@@ -42,8 +39,9 @@ themeConfig:
       - path: /lb/sources.md
         title: Finding Lessons  
   - title: Java
-    path: /java/
     collapsable: false
     children:
+      - title: Java Module Repos
+        path: /java/java_levels.md
       - title: Java Dev Container Quickstart
         path: /java/devcontainer.md
