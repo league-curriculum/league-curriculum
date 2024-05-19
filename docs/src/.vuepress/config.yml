@@ -20,7 +20,7 @@ themeConfig:
   docRepo: 'jointheleague-it/league-curriculum'
   docsDir: 'docs/src'
   editLinkText: ''
-  editLinks: true
+  #editLinks: true
   lastUpdated: false
   logo: /assets/Flag.png
   nav:
@@ -40,8 +40,11 @@ themeConfig:
         title: Finding Lessons  
   - title: Java
     collapsable: false
+    path: /java/
     children:
-      - title: Java Module Repos
+      - title: Java Levels and Modules
         path: /java/java_levels.md
       - title: Java Dev Container Quickstart
         path: /java/devcontainer.md
+      - title: Using Module Repositories
+        path: /java/module_repos.md
