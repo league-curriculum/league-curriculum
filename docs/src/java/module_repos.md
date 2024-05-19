@@ -10,6 +10,8 @@ have links with a large bold title on the left side of the page. Click on
 that link to get the introduction to the module. For instance, here the link
 to [Level0, Module 0](http://localhost:8080/Level0/lessons/Module0/)
 
+# Fork and View Links
+
 On that page you will see two important links: 
 
 <img src="./fork_button.png" height="30px" >  <img src="./view_button.png" height="30px" ><br/>
@@ -28,4 +30,12 @@ If you visit one of the assignment pages, like [this one](http://localhost:8080/
 you will see a  <img style="vertical-align:middle" src="./source_link.png" height="25px">
  link. This link will take you into the Module repositopry, to the specific
 directory that has the assignment you are working on. 
+
+# Fork a Module
+
+Let's try it. Visit this page: 
+
+<a src="https://league-java.github.io/Level0/lessons/Module0/" target="_blank">https://league-java.github.io/Level0/lessons/Module0/</a>
+
+
 
