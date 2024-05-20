@@ -16,3 +16,7 @@ Introducing Python with the Turtle and Trinket.io
 A short class introducing the Microbit Microcontroller
 * [Java Levels](/java/java_levels.html)  
 Java module repo and level websites. 
+
+<hr/>
+
+Development of The LEAGUE's curriculum is generously funded by the Itzkowitz Family Foundation. 
