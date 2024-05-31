@@ -16,17 +16,19 @@ to [Level0, Module 0](http://localhost:8080/Level0/lessons/Module0/)
 
 ## Fork and View Links
 
-On that page you will see three important links: 
+On the [Level0, Module 0](http://localhost:8080/Level0/lessons/Module0/)
+  page you will see three important buttons: 
 
-<img src="./fork_button.png" height="30px" >  <img src="./view_button.png" height="30px" ><br/>
-
+The <img style="vertical-align:middle" src="./open_codespc.png" height="25px" >
+button. This button will fork the repository into your own github workspace so you can 
+work on it, and will also create a new virtual computer with an editor for you to work on it. 
 
 The <img style="vertical-align:middle" src="./fork_button.png" height="25px" >
-link will let you *fork* the module repository. Forking a repository will
-make a copy of it in your GIthub account so you can work on it. 
+buttons will let you *fork* the module repository. Forking a repository will
+make a copy of it in your Github account so you can work on it. in your own repository.
 
 The <img style="vertical-align:middle" src="./view_button.png" height="25px" >
-link will take you to the module repository, so you can see all of the code
+buttons will take you to the module repository, so you can see all of the code
 at once. This repository will be the *LEAGUE'S* repository, not yours, so you
 can't change it, and won't see any of your changes. Visit your account to see
 your version of the repository. 
@@ -131,9 +133,9 @@ again later. Go back to the repository in Github and click on the green Code
 button as before, then select the `Codespaces` tab. However this time you
 will see something like this: 
 
-<img src="./multiple_codespaces.png" width="600px">
+<img src="./active_codespace.png" width="600px">
 
-This is a repository with two codespaces, both with crazy names, 'super-duper space chainsaw' and 'didactic barncle'. Click on one of the crazy names to open your code space, or click on the '...' for other options, such as deleting it. 
+This is a repository with an active codespaces with crazy name, 'cautioous space halibut'. Click on one of the crazy names to open your code space, or click on the '...' for other options, such as deleting it. 
 
 
 
