@@ -14,8 +14,13 @@ Begining programming with Python
 Introducing Python with the Turtle and Trinket.io
 * [Hour of Microbit](https://league-curriculum.github.io/HourofMicrobit/)  
 A short class introducing the Microbit Microcontroller
-* [Java Levels](/java/java_levels.html)  
-Java module repo and level websites. 
+* Java Levels
+  * [Level0](https://league-java.github.io/Level0/)
+  * [Level1](https://league-java.github.io/Level1/)
+  * [Level2](https://league-java.github.io/Level2/)
+  * [Level3](https://league-java.github.io/Level3/)
+  * [Level4](https://league-java.github.io/Level4/)
+  * [Level5](https://league-java.github.io/Level5/)
 
 <hr/>
 
