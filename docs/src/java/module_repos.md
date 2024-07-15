@@ -83,7 +83,8 @@ repo:
 
 ## Look at some code
 
-In the left menu, click on this icon:
+The codespace will take a few minutes to finish building, and when it is done, 
+you will have a Visual Studio Code window. In the left menu, click on this icon:
 
 <center><img src="./images/files.png" width="40px"></center>
 
@@ -105,11 +106,11 @@ open a new browser window with a "noVNC" logo.
 
 Click on "Connect", then enter the passwod: "code4life"
 
-How you have a virtual screen running. When your program writes to the screen, it will show up in this window. 
+Now you have a virtual screen running. When your program writes to the screen, it will show up in this window. 
 
 ::: tip
 
-If instead of clicking on the slipt-box icon you instead click on the world
+If instead of clicking on the split-box icon you instead click on the world
 icon, you will get a seperate window or brrowser tab for your virtual screen.
 This might work better if you have a small screen. 
 
