@@ -1,0 +1,83 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="48">
+            <item index="0" class="java.lang.String" itemvalue="libgeohash" />
+            <item index="1" class="java.lang.String" itemvalue="metapack-build" />
+            <item index="2" class="java.lang.String" itemvalue="sphinx" />
+            <item index="3" class="java.lang.String" itemvalue="cobs" />
+            <item index="4" class="java.lang.String" itemvalue="threaded" />
+            <item index="5" class="java.lang.String" itemvalue="stringdist" />
+            <item index="6" class="java.lang.String" itemvalue="nltk" />
+            <item index="7" class="java.lang.String" itemvalue="geoid" />
+            <item index="8" class="java.lang.String" itemvalue="fs" />
+            <item index="9" class="java.lang.String" itemvalue="rowgenerators" />
+            <item index="10" class="java.lang.String" itemvalue="fredapi" />
+            <item index="11" class="java.lang.String" itemvalue="fuzzy" />
+            <item index="12" class="java.lang.String" itemvalue="chromadb" />
+            <item index="13" class="java.lang.String" itemvalue="detectron2" />
+            <item index="14" class="java.lang.String" itemvalue="unstructured" />
+            <item index="15" class="java.lang.String" itemvalue="pandarallel" />
+            <item index="16" class="java.lang.String" itemvalue="pandas" />
+            <item index="17" class="java.lang.String" itemvalue="tqdm" />
+            <item index="18" class="java.lang.String" itemvalue="requests" />
+            <item index="19" class="java.lang.String" itemvalue="flatten_dict" />
+            <item index="20" class="java.lang.String" itemvalue="pymilvus" />
+            <item index="21" class="java.lang.String" itemvalue="semantic_version" />
+            <item index="22" class="java.lang.String" itemvalue="pymongo" />
+            <item index="23" class="java.lang.String" itemvalue="jupysql" />
+            <item index="24" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="25" class="java.lang.String" itemvalue="minio" />
+            <item index="26" class="java.lang.String" itemvalue="numpy" />
+            <item index="27" class="java.lang.String" itemvalue="python-slugify" />
+            <item index="28" class="java.lang.String" itemvalue="redis" />
+            <item index="29" class="java.lang.String" itemvalue="openai" />
+            <item index="30" class="java.lang.String" itemvalue="duckdb" />
+            <item index="31" class="java.lang.String" itemvalue="langchain" />
+            <item index="32" class="java.lang.String" itemvalue="duckdb-engine" />
+            <item index="33" class="java.lang.String" itemvalue="researchrobot" />
+            <item index="34" class="java.lang.String" itemvalue="pytz" />
+            <item index="35" class="java.lang.String" itemvalue="alive-progress" />
+            <item index="36" class="java.lang.String" itemvalue="tiktoken" />
+            <item index="37" class="java.lang.String" itemvalue="tabulate" />
+            <item index="38" class="java.lang.String" itemvalue="slugify" />
+            <item index="39" class="java.lang.String" itemvalue="jsonref" />
+            <item index="40" class="java.lang.String" itemvalue="openai-async" />
+            <item index="41" class="java.lang.String" itemvalue="pyyaml" />
+            <item index="42" class="java.lang.String" itemvalue="boto3" />
+            <item index="43" class="java.lang.String" itemvalue="tableintuit" />
+            <item index="44" class="java.lang.String" itemvalue="python-openapi" />
+            <item index="45" class="java.lang.String" itemvalue="colored" />
+            <item index="46" class="java.lang.String" itemvalue="more_itertools" />
+            <item index="47" class="java.lang.String" itemvalue="msgpack" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E262" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WRONG_REFERENCES_ATTRIBUTES">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="geoid.acs.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="ReassignedToPlainText" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
