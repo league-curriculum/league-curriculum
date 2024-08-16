@@ -6,8 +6,10 @@
 
 index 
 howto/index
-Github Repo <https://github.com/league-curriculum/league-curriculum.git>
+
+Curriculum <https://curriculum.jointheleague.org>
 The League <https://jointheleague.org>
+Github Repo <https://github.com/league-curriculum/league-curriculum.git>
 ```
 
 
