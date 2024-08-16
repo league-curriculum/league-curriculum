@@ -17,7 +17,7 @@ The League <https://jointheleague.org>
 
 * [Introduction to Programming](https://league-curriculum.github.io/Python-Level-0/)  
 An hour-long first experience with Python. 
-* [Python Apprentice](https://league-curriculum.github.io/Python-Apprentice/index.html)  
+* [Python Apprentice](https://python-apprentice.jointheleague.org)  
 The first course in Python, which covers the basics of the language and prepares students for professional certification. 
 
 ## Java
@@ -32,8 +32,6 @@ The first course in Python, which covers the basics of the language and prepares
 
 * [Hour of Micro:bit](https://league-curriculum.github.io/HourofMicrobit/)  
 A short class introducing the Micro:bit Microcontroller
-
-
 
 
 <hr/>

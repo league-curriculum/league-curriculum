@@ -25,7 +25,7 @@ help:
 publish:
 	@make html
 	@echo "Publishing to $(REPO_URL)"
-	@ghp-import -n -p -f ./build/html
+	@ghp-import -n -p --cname curriculum.jointheleague.org -f ./build/html
 
 livehtml:
-	sphinx-autobuild --open-browser "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O) 
+	sphinx-autobuild --port 0 --open-browser "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O) 
