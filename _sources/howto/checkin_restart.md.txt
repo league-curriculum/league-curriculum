@@ -46,7 +46,7 @@ Remember to check in your code frequently! The best thing to do is check in afte
 
 When you want to resume your lessons, you will probably find that your Codespace has been automatically stopped. You should have check in your code, but if you didn't, your changes will still be in the code space. If you left the browser window open, it will look like this:
 
-<img class="c400" src="https://images.jointheleague.org/vscode/codespace_stopped.png" >
+<img class="c300" src="https://images.jointheleague.org/github/codespace_stopped.png" >
 
 If you see that, just click on the green "Restart Codespace" to pick up where you left off. 
 
