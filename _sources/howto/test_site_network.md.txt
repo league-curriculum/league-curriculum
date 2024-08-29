@@ -6,8 +6,10 @@ web. In additional to being valuable tools for students to learn, they allow us
 to teach students with Chromebooks. However, these tools sometimes don't
 function with some network configurations. 
 
-Running this test proceedure before your students first class will ensure that 
-they can being programming immediately on the first day. 
+Running this test procedure before your students' first class will ensure that
+they can being programming immediately on the first day. School administrators
+can run these tests themselves or a League administrator can run this test by
+controlling your screen in a Zoom meeting. 
 
 __Run these tests on the same WiFi network that your students will use, preferably
 with the same type of computer they will use.__
@@ -32,11 +34,11 @@ Fork Repository</a></span>
 </div>
 <br/>
 
-Then, on the next page,   click on the 
+Then, on the next page,  click on the 
 <img class="inline" src="https://images.jointheleague.org/github/create_fork.png"> button. 
 This will copy the whole course into your Github account. 
 
-When the fork is finished, you can start your web based programming editor. 
+When the fork is finished, Github has copied the code into your Github account, and you can start your web based programming editor. 
 
 ( If you are more currious, you can [visit the course repository](https://github.com/league-curriculum/Python-Apprentice), and then fork from there. )
 
@@ -57,7 +59,7 @@ a Visual Studio Code window, which will look something like this:
 You are ready to start your lessons. You editor window should be displaying the README file, and
 at the bottom of that file it will tell you which lesson to start with, `lessons/lessons/00_Turtles/01_Get_Started.ipynb`
 
-## 4: Open a virtual screen
+## 4: Open a Virtual Screen
 
 Your Codespace is running your code in a data center far away, and it doesn't
 have a screen, so if you want to see your program output, you have to create a
@@ -88,7 +90,7 @@ reload icon at the top of the window.
 Now you have a virtual screen running. When your program writes to the screen,
 it will show up in this window. 
 
-## 5: Run a program
+## 5: Run a Program
 
 Now, you can run a program. 
 
