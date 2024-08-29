@@ -1,16 +1,18 @@
 # Testing Site Wifi
 
-The League teaches most of it's classes using a set up professional programming
+The League teaches most of its classes using a set of professional programming
 tools that store code securely and allow editing and running the code on the
 web. In additional to being valuable tools for students to learn, they allow us
 to teach students with Chromebooks. However, these tools sometimes don't
 function with some network configurations. 
 
-Running this startup proceedure before your students first class will ensure that 
-they can being programming immediately on the first day. 
+Running this test procedure before your students' first class will ensure that
+they can being programming immediately on the first day. School administrators
+can run these tests themselves or a League administrator can run this test by
+controlling your screen in a Zoom meeting. 
 
-*Run these tests on the same WiFi network that your students will use, preferable
-with the same type of computer they will use. *
+__Run these tests on the same WiFi network that your students will use, preferably
+with the same type of computer they will use.__
 
 ## 1: Get a Github Account
 
@@ -31,11 +33,12 @@ Click this button to "fork" the source code:
 Fork Repository</a></span>
 </div>
 <br/>
-Then, on the next page,   click on the 
+
+Then, on the next page,  click on the 
 <img class="inline" src="https://images.jointheleague.org/github/create_fork.png"> button. 
 This will copy the whole course into your Github account. 
 
-When the fork is finished, you can start your web based programming editor. 
+When the fork is finished, Github has copied the code into your Github account, and you can start your web based programming editor. 
 
 ( If you are more currious, you can [visit the course repository](https://github.com/league-curriculum/Python-Apprentice), and then fork from there. )
 
@@ -56,7 +59,7 @@ a Visual Studio Code window, which will look something like this:
 You are ready to start your lessons. You editor window should be displaying the README file, and
 at the bottom of that file it will tell you which lesson to start with, `lessons/lessons/00_Turtles/01_Get_Started.ipynb`
 
-## 4: Open a virtual screen
+## 4: Open a Virtual Screen
 
 Your Codespace is running your code in a data center far away, and it doesn't
 have a screen, so if you want to see your program output, you have to create a
@@ -87,17 +90,19 @@ reload icon at the top of the window.
 Now you have a virtual screen running. When your program writes to the screen,
 it will show up in this window. 
 
-## 5: Run a program
+## 5: Run a Program
 
 Now, you can run a program. 
 
 
-<img class="c600" src="https://images.jointheleague.org/vscode/browser_pane.png" >
+<img class="c800" src="https://images.jointheleague.org/vscode/run_tina.png" >
 
-1) In the Explorer pane on the left side of the screen, open the `lessons` directory by clicking on the name
-2) Open the `00_Turtles` directory
-3) Open the program file `02_Meet_Tina.py`
+1) In the Explorer pane on the left side of the screen, open the `lessons` directory by clicking on the name "lessons".
+2) Open the `00_Turtles` directory.
+3) Open the program file `02_Meet_Tina.py`.
 4) At the top of the editor window for the `02_Meet_Tina.py`, click on the ▶️ Run button. 
 
 You should see Tina in the virtual screen drawing shapes. 
 
+If all of these steps were completed successfully your students will have
+a sucessful first day. 
