@@ -4,10 +4,9 @@
 :maxdepth: 1
 :hidden:
 
-index 
 howto/index
-Github Repo <https://github.com/league-curriculum/league-curriculum.git>
 The League <https://jointheleague.org>
+Github Repo <https://github.com/league-curriculum/league-curriculum.git>
 ```
 
 
