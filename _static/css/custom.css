@@ -18,6 +18,10 @@ span.button.orange {
     background-color: orange; 
 }
 
+span.button.green {
+    background-color: green; 
+}
+
 span.button.blue {
     background-color: blue; 
 }
@@ -75,10 +79,16 @@ img.c500 {
     width: 500px;
 }
 
-
 img.c600 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 600px; 
+}
+
+img.c800 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px; 
 }
