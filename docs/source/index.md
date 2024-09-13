@@ -33,7 +33,12 @@ The first course in Python, which covers the basics of the language and prepares
 * [Hour of Micro:bit](https://league-curriculum.github.io/HourofMicrobit/)  
 A short class introducing the Micro:bit Microcontroller
 
+# Beta Testing and Development
+
+* [Introduction to Python](https://league-curriculum.github.io/Python-Introduction/) The development version of the Introduction to Programming course.
+
 
 <hr/>
 
 Development of The LEAGUE's curriculum is generously funded by the Itzkowitz Family Foundation. 
+
