@@ -35,11 +35,10 @@ A short class introducing the Micro:bit Microcontroller
 
 # Beta Testing and Development
 
-* 
+* [Introduction to Python](https://league-curriculum.github.io/Python-Introduction/) The development version of the Introduction to Programming course.
 
 
 <hr/>
 
 Development of The LEAGUE's curriculum is generously funded by the Itzkowitz Family Foundation. 
 
-* [Introduction to Python](https://league-curriculum.github.io/Python-Introduction/) The development version of the Introduction to Programming course.
