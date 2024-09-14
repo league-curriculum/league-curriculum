@@ -10,7 +10,6 @@ The League <https://jointheleague.org>
 Github Repo <https://github.com/league-curriculum/league-curriculum.git>
 ```
 
-
 # Courses
 
 ## Python 
