@@ -3,16 +3,16 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Java CodeSpaces" href="devcontainer.html" /><link rel="prev" title="How To" href="index.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Testing Site Wifi" href="test_site_network.html" /><link rel="prev" title="Other Resources" href="other_resources.html" />
 
     <!-- Generated with Sphinx 7.2.6 and Furo 2024.08.06 -->
-        <title>Check in Code and Restart Codespaces - League Curriculum</title>
+        <title>Student Registration - League Curriculum</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
-    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=99af1a62" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=417eba3a" />
     
     
 
@@ -205,13 +205,17 @@
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="account_registration.html">Account Setup</a></li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">How To</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of How To</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Check in Code and Restart Codespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="account_registration.html">Account Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="checkin_restart.html">Check in Code and Restart Codespaces</a></li>
 <li class="toctree-l2"><a class="reference internal" href="devcontainer.html">Java CodeSpaces</a></li>
 <li class="toctree-l2"><a class="reference internal" href="java_levels.html">Java Levels and Modules</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lessonbuilder_qs.html">Lessonbuilder Quickstart</a></li>
 <li class="toctree-l2"><a class="reference internal" href="module_repos.html">Using Module Repositories</a></li>
 <li class="toctree-l2"><a class="reference internal" href="other_resources.html">Other Resources</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Student Registration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#student-interface">Student Interface.</a></li>
 <li class="toctree-l2"><a class="reference internal" href="test_site_network.html">Testing Site Wifi</a></li>
 </ul>
 </li>
@@ -237,7 +241,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="../_sources/howto/checkin_restart.md.txt" title="View this page">
+  <a class="muted-link" href="../_sources/howto/registration.md.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -257,55 +261,45 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section class="tex2jax_ignore mathjax_ignore" id="check-in-code-and-restart-codespaces">
-<h1>Check in Code and Restart Codespaces<a class="headerlink" href="#check-in-code-and-restart-codespaces" title="Link to this heading">¶</a></h1>
-<p>After you have written a few programs, you have changes to source code in
-your Codespace. If you want to save those changes for later – and you almost
-certainly do – you should “check it in” to git. If you don’t,  eventually your
-Github codespace will be stopped automatically, then deleted after a few weeks,
-and you will lose your changes. So check your code in!</p>
-<p>On the left side of the Codespace window, look for this icon. The number may be
-different.</p>
-<img class="c100" src="https://images.jointheleague.org/vscode/git_changes.png" width="100px">
-<p>This is the Source Control icon; click on it to get accecss to the Source Control tool for
-checking in your code. Now the Source Control pane should look like this:</p>
-<img  class="c400" src="https://images.jointheleague.org/vscode/sc_changes.png" width="400px">
-<p>To check in your code enter a message in the Message box to describe what you
-changed, then click on the ✓ Commit button. That will check in your changes,
-but they aren’t really stored permanaently yet.</p>
-<p>After you commit, the blue button will change to:</p>
-<img class="c400" src="https://images.jointheleague.org/vscode/sc_sync.png">
-<p>Click the Sync button, and <em>now</em> your changes are safely in your Github account’s repository.</p>
-<p>One problem you might have is if you click the ✓ Commit button and it doesn’t
-seem to do anything, but the edit pane ( where you edit files ) changes to look
-like this:</p>
-<img  class="c400"  src="https://images.jointheleague.org/vscode/sc_edit_message.png" >
-<p>This happens if you click the ✓ Commit button without entering a commit message first. There are two ways to proceed:</p>
-<ol class="arabic simple">
-<li><p>Close the edit message file by clicking on the x in the files tab. then go
-back to the Source Control window and enter a message before clicking on the
-✓ Commit button.</p></li>
-<li><p>Enter a commit message at the top of the edit message file, save the file,
-then close it, and the commit process will finish.</p></li>
-</ol>
-<p>Remember to check in your code frequently! The best thing to do is check in after every lesson, but you should be especially diligent about checking code in before you finish your lessons for the day.</p>
-<section id="continue-your-lessons">
-<h2>Continue Your Lessons<a class="headerlink" href="#continue-your-lessons" title="Link to this heading">¶</a></h2>
-<p>When you want to resume your lessons, you will probably find that your Codespace has been automatically stopped. You should have check in your code, but if you didn’t, your changes will still be in the code space. If you left the browser window open, it will look like this:</p>
-<img class="c300" src="https://images.jointheleague.org/github/codespace_stopped.png" >
-<p>If you see that, just click on the green “Restart Codespace” to pick up where you left off.</p>
-<p>If you don’t still have that window open, it is still easy to restart your code space.</p>
-<p>First, go your Github account and look for the repository called “Python-Apprentice.”</p>
-<p>Next, click on the <img class="inline" src="https://images.jointheleague.org/github/code_button.png" >
-button, and in the popup window, select the “Codespaces” tab. You shout <em>not</em>
-see the green “Create Codespace” button, but rather, it should look something
-like this:</p>
-<img  class="c400" src="https://images.jointheleague.org/github/restart_codespace.png">
-<p>The codespaces have crazy names, like this one, “expert brocolli”.</p>
-<p>If your codespace isn’t actually stopped, it is still running, you will see “Active” along with a green dot:</p>
-<img  class="c400" src="https://images.jointheleague.org/github/active_codespace.png">
-<p>Either way, you can click on the crazy name link to open the codespace and continue your lessons.</p>
+          <section class="tex2jax_ignore mathjax_ignore" id="student-registration">
+<h1>Student Registration<a class="headerlink" href="#student-registration" title="Link to this heading">¶</a></h1>
+<p>Go to https://curriculum.jointheleague.org/ and click on “Account Setup” in the left side menu.</p>
+<p>Or go directly to: https://curriculum.jointheleague.org/howto/account_registration.html</p>
+<p>Send students to that link to register their account. At the bottom of the page,
+is the Instructors Interface you should go their on your computer or phone.</p>
+<section id="instructors-interface">
+<h2>Instructors Interface<a class="headerlink" href="#instructors-interface" title="Link to this heading">¶</a></h2>
+<p>https://student-registration.do.jointheleague.org/acct/class</p>
+<p>For most classes before students register, you must create a class code. You
+will usually just enter your name and the location name, then hit submit to
+create a generated class code, then hit submit again to save it.</p>
+<p>That is: for the first submit, <em>don’t</em> enter a class code, just your name and the location name.</p>
+<p>You should have a new class code for every new class, even at the same location.
+The interface will only show the last two weeks of classes to students, so they
+won’t see old class codes.</p>
+<section id="class-lists">
+<h3>Class Lists<a class="headerlink" href="#class-lists" title="Link to this heading">¶</a></h3>
+<p>Click on the class code to see the list of students who have registered, for instance:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>https://student-registration.do.jointheleague.org/acct/class?class_code=SMOT-VW
+</pre></div>
+</div>
 </section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="student-interface">
+<h1>Student Interface.<a class="headerlink" href="#student-interface" title="Link to this heading">¶</a></h1>
+<p>https://curriculum.jointheleague.org/howto/account_registration.html</p>
+<p>The registration system now has two parts: students enter their name and email
+first, then the Github account. Have them select the class code you recently
+created ( the are MEA-G4 and SOTM-S4 for todays classes ).  On the next page is
+their account name – a two word phrase – and a disposable email address. In
+this example its: students+recursing_goldstine&#64;jointheleague.org</p>
+<p>If the student doesn’t have a usefil email address, use this one. You will get
+the Github confirmation code to the google group “students&#64;jointheleague.org”
+which I have added you to, so you should see the emails in your email client.</p>
+<p>You will get a lot of them, and they will all look the same, except for the from
+address, which will have the funny word ( ‘recursing_goldstine’ ) in it. Match
+those up, and give the kid the code.</p>
 </section>
 
         </article>
@@ -313,23 +307,23 @@ like this:</p>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="devcontainer.html">
+          <a class="next-page" href="test_site_network.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Java CodeSpaces</div>
+                <div class="title">Testing Site Wifi</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="index.html">
+          <a class="prev-page" href="other_resources.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">How To</div>
+                <div class="title">Other Resources</div>
                 
               </div>
             </a>
@@ -363,10 +357,14 @@ like this:</p>
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">Check in Code and Restart Codespaces</a><ul>
-<li><a class="reference internal" href="#continue-your-lessons">Continue Your Lessons</a></li>
+<li><a class="reference internal" href="#">Student Registration</a><ul>
+<li><a class="reference internal" href="#instructors-interface">Instructors Interface</a><ul>
+<li><a class="reference internal" href="#class-lists">Class Lists</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li><a class="reference internal" href="#student-interface">Student Interface.</a></li>
 </ul>
 
           </div>
