@@ -35,6 +35,7 @@ A short class introducing the Micro:bit Microcontroller
 ## Beta Testing and Development
 
 * [Introduction to Python.](https://league-curriculum.github.io/Python-Introduction/) The development version of the Introduction to Programming course.
+* [Python Games.](https://github.com/league-curriculum/Python-Games) Build skills with larger, object-oriendted programs by creating games.
 * [Motors Clinic.](https://league-curriculum.github.io/Motors/) A short course
   covering how to write programs to control brush motors, stepper motors and
   hobby servos. 
