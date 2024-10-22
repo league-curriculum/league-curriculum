@@ -19,7 +19,7 @@ An hour-long first experience with Python.
 * [Python Apprentice](https://python-apprentice.jointheleague.org)  
 The first course in Python, which covers the basics of the language and prepares students for professional certification. 
 * [Python Games.](https://github.com/league-curriculum/Python-Games)  
-Build skills with larger, object-oriendted programs by creating games.
+Build skills with larger, object-oriendted programs by creating games. You can also [run your Python games on the web](https://github.com/league-curriculum/Python-Web-Game)
 
 
 ## Java
