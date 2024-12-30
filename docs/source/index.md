@@ -14,8 +14,7 @@ Github Repo <https://github.com/league-curriculum/league-curriculum.git>
 
 ## Python 
 
-* [Introduction to Programming](https://league-curriculum.github.io/Python-Level-0/)  
-An hour-long first experience with Python. 
+* [Introduction to Python.](https://league-curriculum.github.io/Python-Introduction/) Beginning students' first experience with Python. 
 * [Python Apprentice](https://python-apprentice.jointheleague.org)  
 The first course in Python, which covers the basics of the language and prepares students for professional certification. 
 * [Python Games.](https://github.com/league-curriculum/Python-Games)  
@@ -37,9 +36,6 @@ A short class introducing the Micro:bit Microcontroller
 * [Motors Clinic.](https://league-curriculum.github.io/Motors/) 
 A short course covering how to write programs to control brush motors, stepper motors and hobby servos. 
 
-## Beta Testing and Development
-
-* [Introduction to Python.](https://league-curriculum.github.io/Python-Introduction/) The development version of the Introduction to Programming course.
 
 <hr/>
 
