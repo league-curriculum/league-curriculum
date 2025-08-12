@@ -1,15 +1,10 @@
-# League Curriculum
+# Python Level 1 Documentation
 
-A static website with links to League curriculum and documentation for how to manage it. 
+The Markdown flavor is Myst  https://myst-parser.readthedocs.io/en/latest/index.html
 
+Use `make livehtml` to build the documentation and start a live server, which with auto-rebuild on changes. 
 
-## Development
+Use `make publish` to push the changes to the `gh-pages` branch
 
+The theme is [Furo](https://pradyunsg.me/furo/quickstart/)
 
-This is a normal vuepress site, so to:
-
-* build: `cd docs/src; yarn build`
-* devel server: `cd docs/src; yarn dev` or `jtl serve`
-* deploy: `jtl deploy`
-
-The `scripts/leaguec` program generates some of the pages. 
