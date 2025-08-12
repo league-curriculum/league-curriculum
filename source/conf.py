@@ -12,6 +12,8 @@ author = 'Eric Busboom'
 
 html_title = 'League Curriculum'
 html_logo = 'https://images.jointheleague.org/logos/logo4.png'
+html_favicon = '_static/favicon.ico'
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
