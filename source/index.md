@@ -36,8 +36,15 @@ A short class introducing the Micro:bit Microcontroller
 * [Motors Clinic.](https://league-curriculum.github.io/Motors/) 
 A short course covering how to write programs to control brush motors, stepper motors and hobby servos. 
 
+## Web
+
+* [Github Pages Portfolio](https://github.com/league-curriculum/Portfolio-jekyll-barebones.git). Build a 
+  portfolio website using Github Pages and Jekyll.
+
+## In Development
+
+* [Microbit Robot Rally](https://league-curriculum.github.io/Microbit-Robot-Rally/) Multiplayer competitive games with Micro:bit-based robots. 
 
 <hr/>
 
 Development of The LEAGUE's curriculum is generously funded by the Itzkowitz Family Foundation. 
-
