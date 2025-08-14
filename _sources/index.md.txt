@@ -43,8 +43,10 @@ A short course covering how to write programs to control brush motors, stepper m
 
 ## In Development
 
-* [Microbit Robot Rally](https://league-curriculum.github.io/Microbit-Robot-Rally/) Multiplayer competitive games with Micro:bit-based robots. 
+* [Microbit Robot Rally](https://league-curriculum.github.io/Microbit-Robot-Rally/) Multiplayer competitive games with Micro:bit-based robots.
+* [OrbitLab](https://github.com/league-curriculum/Python-OrbitLab) Build a solar system simulation
 
 <hr/>
 
 Development of The LEAGUE's curriculum is generously funded by the Itzkowitz Family Foundation. 
+
