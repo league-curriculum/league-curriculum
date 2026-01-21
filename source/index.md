@@ -54,8 +54,8 @@ A short course covering how to write programs to control brush motors, stepper m
 ## In Development
 
 * [Microbit Robot Rally](https://league-curriculum.github.io/Microbit-Robot-Rally/) Multiplayer competitive games with Micro:bit-based robots.
-* [OrbitLab](https://github.com/league-curriculum/Python-OrbitLab) Build a solar system simulation
-* [Arcade Games](https://league-curriculum.github.io/Arcade-Games/) Build retro-style arcade games with MakeCode Arcade.
+* [OrbitLab](https://github.com/league-curriculum/Python-OrbitLab) Build a solar system simulation.
+* [Arcade Games](https://league-curriculum.github.io/Arcade-Games/) Build retro-style arcade games with [MakeCode Arcade](https://arcade.makecode.com).
 
 <hr/>
 
