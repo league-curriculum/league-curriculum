@@ -1,0 +1,22 @@
+baseURL = "https://curriculum.jointheleague.org/"
+title = "League Curriculum"
+theme = "curriculum-hugo-theme"
+enableEmoji = true
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[params]
+  copyright = "The League of Amazing Programmers"
+  license = "CC BY-NC 4.0"
+  github_repo = "https://github.com/league-curriculum/league-curriculum"
+  curriculum_version = "0.20260316.2"
+  curik_version = "0.20260314.11"

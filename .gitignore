@@ -1,6 +1,3 @@
-.DS_Store
-.venv
-
-build/*
-docs/*
-
+public/
+resources/
+.hugo_build.lock

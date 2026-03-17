@@ -1,0 +1,14 @@
+title: League Curriculum
+slug: league-curriculum
+uid: 3edbac4e-1abb-40c7-a32f-9b66cbb656dc
+type: course
+tier: 1
+grades: all
+category: text-programming
+topics: []
+prerequisites: []
+lessons: 0
+estimated_weeks: 0
+curriculum_url: https://curriculum.jointheleague.org/
+repo_url: https://github.com/league-curriculum/league-curriculum
+description: Course catalog and index for the League of Amazing Programmers

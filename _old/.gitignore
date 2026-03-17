@@ -1,0 +1,22 @@
+# -- CURIK:START --
+# Managed by curik — do not edit this section manually.
+# Run `curik init` to update.
+
+# Hugo build output
+public/
+resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hugo lock file
+.hugo_build.lock
+# -- CURIK:END --
+
+.DS_Store
+.venv
+
+build/*
+docs/*
+

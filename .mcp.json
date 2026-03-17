@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "curik": {
+      "command": "curik",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}
