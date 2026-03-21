@@ -15,8 +15,8 @@ title: "Courses"
 
 ## Microcontrollers and Robotics
 
-* [Hour of Micro:bit](https://league-curriculum.github.io/HourofMicrobit/)
-  A short class introducing the Micro:bit Microcontroller.
+* [Micro:Bit Tech Arcade](https://league-curriculum.github.io/microbit-tech-arcade/)
+  A hands-on, project-based introduction to the BBC micro:bit covering programming fundamentals, arcade game development, and robotics.
 * [Motors Clinic](https://league-curriculum.github.io/Motors/)
   A short course covering how to write programs to control brush motors, stepper motors and hobby servos.
 
