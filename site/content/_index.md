@@ -10,7 +10,7 @@ title: "Courses"
   Beginning students' first experience with Python.
 * [Python Apprentice](https://curriculum.jointheleague.org/Python-Apprentice/)
   The first course in Python, which covers the basics of the language and prepares students for professional certification.
-* [Python Games](https://github.com/league-curriculum/Python-Games)
+* [Python Games](https://curriculum.jointheleague.org/Python-Games)
   Build skills with larger, object-oriented programs by creating games. You can also [run your Python games on the web](https://curriculum.jointheleague.org/Python-Web-Game).
 
 ## Microcontrollers and Robotics
