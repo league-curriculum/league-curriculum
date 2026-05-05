@@ -1,3 +1,19 @@
+# -- CURIK:START --
+# Managed by curik — do not edit this section manually.
+# Run `curik init` to update.
+
+# Hugo build output (now under site/)
+site/public/
+site/resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hugo lock file
+site/.hugo_build.lock
+# -- CURIK:END --
+
 public/
 resources/
 .hugo_build.lock

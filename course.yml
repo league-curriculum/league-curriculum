@@ -1,5 +1,4 @@
 title: League Curriculum
-slug: league-curriculum
 uid: 3edbac4e-1abb-40c7-a32f-9b66cbb656dc
 type: course
 tier: 1
@@ -9,6 +8,11 @@ topics: []
 prerequisites: []
 lessons: 0
 estimated_weeks: 0
-curriculum_url: https://curriculum.jointheleague.org/
 repo_url: https://github.com/league-curriculum/league-curriculum
 description: Course catalog and index for the League of Amazing Programmers
+
+# Fields from previous course.yml not in the current template.
+# Move these to the appropriate place or delete if no longer needed.
+old:
+  slug: league-curriculum
+  curriculum_url: https://curriculum.jointheleague.org/
