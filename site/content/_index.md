@@ -27,7 +27,7 @@ title: "Courses"
 
 ## Java
 
-[Level 0](https://curriculum.jointheleague.org/Level0/) | [Level 1](https://curriculum.jointheleague.org/Level1/) | [Level 2](https://curriculum.jointheleague.org/Level2/) | [Level 3](https://curriculum.jointheleague.org/Level3/) | [Level 4](https://curriculum.jointheleague.org/Level4/) | [Level 5](https://curriculum.jointheleague.org/Level5/)
+[Level 0](https://league-java.github.io/Level0/) | [Level 1](https://league-java.github.io/Level1/) | [Level 2](https://league-java.github.io/Level2/) | [Level 3](https://league-java.github.io/Level3/) | [Level 4](https://league-java.github.io/Level4/) | [Level 5](https://league-java.github.io/Level5/)
 
 ## In Development
 
